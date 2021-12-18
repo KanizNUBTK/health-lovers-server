@@ -226,7 +226,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-    res.send('image payment system');
+    res.send('hello heath lovers');
 });
 
 app.listen(port, () => {
